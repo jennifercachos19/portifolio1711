@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f8f9fa;
+    color: #16161d;
+}
+#cabecalho {
+    background-color: #121216;
+    color: #ffffff;
+    padding: 25px 10% 80px;
+}
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.logo {
+    font-weight: bold;
+}
+.logo span, h1 span, h3 span {
+    color: #dc2626;
+}
+.conteiner ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.conteiner a {
+    color: #d1d5db;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.conteiner a:hover, .conteiner a.ativo{
+    color: #dc2626;
+    font-weight: bold;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.saudacao {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.hero-text h1 {
+    font-size: 3.2rem;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.hero-text h4 {
+    font-size: 1.4rem;
+    color: #d1d5db;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.descricao {
+    color: #9ca3af;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #dc2626;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #b91c1c;
+}
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+section h3, footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+}
+
+.sobre p {
+    max-width: 650px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #050505;
+    line-height: 1.6;
+}
+.habilidades ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.habilidades li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.habilidades img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.habilidades span {
+    font-size: 32px;
+    font-weight: 600;
+}
+.habilidades .unica {
+    font-size: 20px;
+}
+.grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.card h4 {
+    font-size: 1.15rem;
+    margin-bottom: 6px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #4b5563;
+    margin-bottom: 12px;
+}
+
+.card a {
+    color: #dc2626;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+#contatos {
+    background-color: #f1f3f5;
+    padding: 40px 10%;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.redes img {
+    height: 40px;
+}
+.redes a:hover {
+    color: #dc2626;
+}
